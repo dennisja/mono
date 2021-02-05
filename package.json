@@ -1,6 +1,6 @@
 {
   "name": "mono",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "repository": "git@github.com:dennisja/mono.git",
   "author": "dennisja <dennisjjagwe@gmail.com>",
@@ -8,5 +8,6 @@
   "private": true,
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "dependencies": {}
 }
