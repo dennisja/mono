@@ -8,8 +8,9 @@
   },
   "scripts": {
     "build": "tsc -b .",
-    "test": "jest",
-    "clean": "rimraf dist *.tsbuildinfo"
+    "clean": "rimraf dist *.tsbuildinfo",
+    "lint": "eslint src --ext js,ts",
+    "test": "jest"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.12.13",
