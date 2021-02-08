@@ -7,10 +7,13 @@
     "access": "public"
   },
   "scripts": {
-    "build": "tsc -b .",
+    "build": "scripty",
     "clean": "rimraf dist *.tsbuildinfo",
-    "lint": "eslint src --ext js,ts",
-    "test": "jest"
+    "lint": "scripty",
+    "test": "scripty"
+  },
+  "scripty": {
+    "path": "../../scripts/packages"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.12.13",
