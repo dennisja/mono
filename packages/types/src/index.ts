@@ -1,7 +1,7 @@
 /**
  * @packageDocumentation
  *
- * <h2> Purpose of this library </>
+ * <h2> Purpose of this library </h2>
  *
  * `@mono/types` exists to have all the type information we need for our app
  *
