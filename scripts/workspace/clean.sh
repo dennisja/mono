@@ -2,4 +2,4 @@
 
 echo "----- Cleaning Workspace --------"
 
-yarn lerna rub clean --concurrency 4
+yarn lerna run clean --concurrency 4
